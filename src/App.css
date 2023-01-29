@@ -38,8 +38,41 @@
 }
 .centrado {
   margin-inline: 28rem;
+  margin-block: 2rem;
+  
 }
 .imagenes{
-  width:200px;
+  width:225px;
   height: 200px;
+}
+.cont-detail{
+  padding: 1rem;
+  border: none;
+}
+.link-buton{
+  margin-left: 20px;
+}
+.count-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+
+}
+.button{
+  border:2px solid white;
+  background-color:gold;
+  color:black;
+}
+.noproduct{
+  color:gold;
+  text-align: center;
+}
+.noproduct-boton{
+  margin-left: 35rem;
+  margin-top: 4rem;
+  padding: 0.5rem;
+  background-image: linear-gradient(315deg,#00d301,#36c275 50.5%,#00a562);
+  color:white;
 }

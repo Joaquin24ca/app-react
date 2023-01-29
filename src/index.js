@@ -5,12 +5,15 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js"
+import ShopProvider from './Context/Shop';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
  // <React.StrictMode>
-    <App />
+ <ShopProvider>
+<App />
+ </ShopProvider>
  // </React.StrictMode>
 );
 

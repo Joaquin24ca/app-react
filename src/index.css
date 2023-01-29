@@ -14,3 +14,12 @@ code {
 .fondo{
  background-image: linear-gradient(315deg,#00d301,#36c275 50.5%,#00a562)
 }
+.formulario{
+  margin-left: 8rem;
+}
+.fond{
+  background-image: linear-gradient(315deg,#00d301,#36c275 50.5%,#00a562)
+}
+.fond-list{
+  background-image: linear-gradient(to top, #0fd850 0%, #f9f047 100%);
+}

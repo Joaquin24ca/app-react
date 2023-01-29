@@ -1,11 +1,19 @@
 import React from 'react'
+import { useContext } from 'react'
 import {HiShoppingCart} from "react-icons/hi"
-
+import { Shop } from '../../Context/Shop'
+import {Link} from "react-router-dom";
 const CartWidget = () => {
+
+const {countCart}=useContext(Shop)
+
+
+
   return (
-    <div> 
-        <HiShoppingCart style={{height:50 , width:50}}/>
-    </div>
+    <Link to ="/cart"> 
+        <HiShoppingCart style={{height:40, width:40 , color:"white"}}/>
+        <span style={{color:"white"}}>{countCart()}</span>
+    </Link>
   )
 }
 
